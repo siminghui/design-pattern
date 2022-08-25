@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ccbe898-81ee-43a4-a138-a4e45630b82b" name="Changes" comment="1">
-      <change afterPath="$PROJECT_DIR$/src/com/simh/SyncThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/simh/singleton/SingletonHungry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/simh/singleton/SingletonLazy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/simh/singleton/SingletonLazy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/simh/factory/AliPay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/simh/factory/Pay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/simh/factory/SimplePayFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/simh/factory/WechatPay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -41,16 +44,16 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/siminghui/IdeaProjects/design-pattern&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/siminghui/IdeaProjects/design-pattern",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.gutterIcons"
   }
-}</component>
+}]]></component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
@@ -64,7 +67,7 @@
       <command value="open xdclass-1024-shop" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.SyncThread">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="design-pattern" />
@@ -87,8 +90,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SyncThread" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.SyncThread" />
       </list>
     </recent_temporary>
   </component>
@@ -101,7 +104,7 @@
       <option name="presentableId" value="Default" />
       <updated>1661246665095</updated>
       <workItem from="1661246666436" duration="6818000" />
-      <workItem from="1661319963867" duration="7598000" />
+      <workItem from="1661319963867" duration="10491000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1661248000437</created>
