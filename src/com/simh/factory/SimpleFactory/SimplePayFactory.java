@@ -1,5 +1,9 @@
 package com.simh.factory.SimpleFactory;
 
+import com.simh.factory.AliPay;
+import com.simh.factory.Pay;
+import com.simh.factory.WechatPay;
+
 /**
  * @Author: 十七
  * @Date: 2022/8/25 10:53 AM

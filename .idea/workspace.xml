@@ -5,11 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ccbe898-81ee-43a4-a138-a4e45630b82b" name="Changes" comment="1">
-      <change afterPath="$PROJECT_DIR$/src/com/simh/factory/AliPay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/simh/factory/Pay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/simh/factory/SimplePayFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/simh/factory/WechatPay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/simh/factory/FactoryMethod/AliPayFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/simh/factory/FactoryMethod/PayFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/simh/factory/FactoryMethod/WeChatPayFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/simh/factory/abstractfactory/APayFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/simh/factory/abstractfactory/ARefundFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/simh/factory/abstractfactory/FactoryProducter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/simh/factory/abstractfactory/OrderFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/simh/factory/abstractfactory/ali/AAliOrderFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/simh/factory/abstractfactory/ali/AAliPay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/simh/factory/abstractfactory/ali/AAliRefund.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/simh/factory/abstractfactory/wechat/AWechatOrderFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/simh/factory/abstractfactory/wechat/AWechatPay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/simh/factory/abstractfactory/wechat/AWechatRefund.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/simh/factory/SimpleFactory/AliPay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/simh/factory/AliPay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/simh/factory/SimpleFactory/Pay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/simh/factory/Pay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/simh/factory/SimpleFactory/SimplePayFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/simh/factory/SimpleFactory/SimplePayFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/simh/factory/SimpleFactory/WechatPay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/simh/factory/WechatPay.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,16 +57,16 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/siminghui/IdeaProjects/design-pattern",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.gutterIcons"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/siminghui/IdeaProjects/design-pattern&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.gutterIcons&quot;
   }
-}]]></component>
+}</component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
@@ -61,10 +74,18 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.simh.factory.abstractfactory" />
+      <recent name="com.simh.factory.abstractfactory.wechat" />
+      <recent name="com.simh.factory.abstractfactory.ali" />
+    </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="open xdclass-1024-shop" />
+      <command value="register" />
+      <command value="open gmc-hospitalized-register" />
+      <command value="open gmc-nurse-station-back-end" />
     </option>
   </component>
   <component name="RunManager" selected="Application.Main">
@@ -104,7 +125,9 @@
       <option name="presentableId" value="Default" />
       <updated>1661246665095</updated>
       <workItem from="1661246666436" duration="6818000" />
-      <workItem from="1661319963867" duration="10491000" />
+      <workItem from="1661319963867" duration="13590000" />
+      <workItem from="1661433295055" duration="697000" />
+      <workItem from="1661482790477" duration="4792000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1661248000437</created>

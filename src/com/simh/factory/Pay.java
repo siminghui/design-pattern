@@ -1,4 +1,4 @@
-package com.simh.factory.SimpleFactory;
+package com.simh.factory;
 
 /**
  * @Author: 十七
