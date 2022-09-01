@@ -5,24 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ccbe898-81ee-43a4-a138-a4e45630b82b" name="Changes" comment="1">
-      <change afterPath="$PROJECT_DIR$/src/com/simh/factory/FactoryMethod/AliPayFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/simh/factory/FactoryMethod/PayFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/simh/factory/FactoryMethod/WeChatPayFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/simh/factory/abstractfactory/APayFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/simh/factory/abstractfactory/ARefundFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/simh/factory/abstractfactory/FactoryProducter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/simh/factory/abstractfactory/OrderFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/simh/factory/abstractfactory/ali/AAliOrderFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/simh/factory/abstractfactory/ali/AAliPay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/simh/factory/abstractfactory/ali/AAliRefund.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/simh/factory/abstractfactory/wechat/AWechatOrderFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/simh/factory/abstractfactory/wechat/AWechatPay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/simh/factory/abstractfactory/wechat/AWechatRefund.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/simh/factory/SimpleFactory/AliPay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/simh/factory/AliPay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/simh/factory/SimpleFactory/Pay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/simh/factory/Pay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/simh/factory/SimpleFactory/SimplePayFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/simh/factory/SimpleFactory/SimplePayFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/simh/factory/SimpleFactory/WechatPay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/simh/factory/WechatPay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/simh/prototype/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/simh/prototype/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +72,20 @@
       <command value="open gmc-nurse-station-back-end" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.simh.prototype.Client" />
+      <module name="design-pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.simh.prototype.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="design-pattern" />
@@ -111,6 +108,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.SyncThread" />
       </list>
@@ -128,6 +126,7 @@
       <workItem from="1661319963867" duration="13590000" />
       <workItem from="1661433295055" duration="697000" />
       <workItem from="1661482790477" duration="4792000" />
+      <workItem from="1661931524089" duration="4910000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1661248000437</created>
